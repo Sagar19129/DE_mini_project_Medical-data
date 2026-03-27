@@ -1,15 +1,15 @@
-#  Medical Data Pipeline using Databricks (End-to-End Project)
+#  Medical Data  using Databricks (End-to-End Project)
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 This project implements a complete end-to-end data engineering pipeline using Databricks, following the Medallion Architecture (Bronze → Silver → Gold).
 
 The pipeline ingests raw healthcare data from Google Drive using Fivetran, performs data cleaning and transformation, and generates business-ready KPIs and data cubes.
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 ---
 
 ##  Data Ingestion (Bronze Layer)
@@ -79,7 +79,7 @@ procedure_duration = (stop - start) in hours
 
 ##  Gold Layer (Analytics Layer)
 
-### 📌 Fact Tables
+###  Fact Tables
 - fact_encounters
 - fact_procedures
 
